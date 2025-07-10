@@ -10,8 +10,9 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
-    background-color:rgb(245,248,255);
 }
+
+
 /* .inter-normal {
   font-family: "Inter", sans-serif !important;
   font-optical-sizing: auto;
@@ -29,6 +30,9 @@
   border:none;
   font-size:16px;
 }
+.bd-color{
+    background-color:rgb(245,248,255);
+}
 
 /* header styles */
 header{
@@ -44,6 +48,7 @@ nav{
 }
 nav .logo{
     color:#4E47FF;
+    font-size:34px;
 }
 .bannar{
     margin:0 auto;
@@ -194,7 +199,7 @@ nav .logo{
     display:flex;
     width:1140px;
     margin:0 auto;
-    padding:150px 0;
+    padding:120px 0;
     justify-content:space-between;
     align-items: center;
 }
@@ -254,4 +259,31 @@ nav .logo{
     color:#9b9494;
     font-size:18px;
     font-weight: 100;
+}
+
+/* footer styles */
+
+.footer-end{
+    display:flex;
+    justify-content:center;
+    gap:48px;
+    margin-top:20px;
+}
+footer{
+    width:530px;
+    margin:0 auto;
+    text-align:center;
+    padding:70px 0;
+}
+.footer-content h1{
+    font-size:100px;
+    font-weight: bolder;
+    padding:10px 0;
+    color:#4E47FF;
+}
+.footer-content p{
+   color:#757575;
+}
+.footer-end p{
+   color:#757575;
 }
