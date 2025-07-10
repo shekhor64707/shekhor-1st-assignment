@@ -162,3 +162,28 @@ nav .logo{
     font-weight: 800;
     color:#757575;
 }
+
+/* focus styles */
+.focus{
+    width:1140px;
+    text-align:center;
+    margin:0 auto;
+    background-color: #ffffff;
+    padding:50px 0;
+    border-radius:15px;
+}
+.focus button , .focus img{
+    display:block;
+    margin:18px auto;
+}
+.focus .focus-title{
+    font-size:50px;
+    font-weight: bold;
+}
+.focus-para{
+    color:#757575;
+    padding:20px 0;
+}
+.focus img{
+    border-radius:35px;
+}
