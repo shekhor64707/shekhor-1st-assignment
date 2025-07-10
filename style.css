@@ -187,3 +187,71 @@ nav .logo{
 .focus img{
     border-radius:35px;
 }
+
+/* form styles */
+
+.form{
+    display:flex;
+    width:1140px;
+    margin:0 auto;
+    padding:150px 0;
+    justify-content:space-between;
+    align-items: center;
+}
+.form p{
+    font-size:97px;
+    font-weight:bold;
+}
+.form-content{
+    width:497px;
+}
+
+.form-content input[type="text"],.form-content input[type="email"], .form-content textarea{
+    width:457px;
+    height:40px;
+    margin-bottom:20px;
+    border:1 px solid #ffffff;
+    border-radius:5px;
+    padding:10px 15px;
+    background-color: #ffffff;
+    border:1px solid #ede6e6;
+}
+.form-content input[type="text"],.form-content input[type="email"], .form-content textarea:hover{
+    border:2px solid #ede6e6;
+}
+.form-content textarea{
+    height:135px;
+}
+.form-content label{
+    font-size:18px;
+    font-weight: 600;
+    display:block;
+    margin-bottom:5px;
+}
+.form-content input[type="submit"]{
+    width:100%;
+    color:#ffffff;
+    background-color: #4E47FF;
+    border-radius:7px;
+    padding:15px 36px;
+    border:none;
+    font-size:16px;
+   
+}
+.form-content input[type="textarea"]{
+    display:block;
+    width:300px;
+}
+
+.form-content input[type="text"]::placeholder, 
+.form-content input[type="email"]::placeholder{
+    color:#9b9494;
+    font-size:18px;
+    font-weight: 100;
+}
+.form-content textarea::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#9b9494;
+    font-size:18px;
+    font-weight: 100;
+}
