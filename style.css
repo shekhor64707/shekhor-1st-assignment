@@ -30,6 +30,15 @@
   border:none;
   font-size:16px;
 }
+.btn-primary:hover{
+    color:#ffffff;
+  background-color:#100b9e;
+  border-radius:10px;
+  padding:12px 36px;
+  border:none;
+  font-size:16px;
+}
+
 .bd-color{
     background-color:rgb(245,248,255);
 }
@@ -237,6 +246,16 @@ nav .logo{
     width:100%;
     color:#ffffff;
     background-color: #4E47FF;
+    border-radius:7px;
+    padding:15px 36px;
+    border:none;
+    font-size:16px;
+   
+}
+.form-content input[type="submit"]:hover{
+    width:100%;
+    color:#ffffff;
+    background-color: #100b9e;
     border-radius:7px;
     padding:15px 36px;
     border:none;
